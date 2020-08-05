@@ -10,7 +10,7 @@ import java.util.List;
 @Repository
 public interface FileStorageRepository extends JpaRepository<FileStorage, Long> {
 
-    FileStorage findByHashId(String hashId);1
+    FileStorage findByHashId(String hashId);
 
     List<FileStorage> findByAllFileStorageStatus(FileStorageStatus status);
 }
