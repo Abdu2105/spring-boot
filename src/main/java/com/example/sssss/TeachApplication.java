@@ -34,4 +34,6 @@ public class TeachApplication {
 //	public void startRate(){
 //		System.out.println("New lesson " + new Date());
 //	}
+
+	public void abs(){}
 }
