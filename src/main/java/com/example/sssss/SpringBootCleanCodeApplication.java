@@ -3,16 +3,13 @@ package com.example.sssss;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.scheduling.annotation.EnableScheduling;
-import org.springframework.scheduling.annotation.Scheduled;
-
-import java.util.Date;
 
 @SpringBootApplication
 @EnableScheduling
-public class TeachApplication {
+public class SpringBootCleanCodeApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(TeachApplication.class, args);
+		SpringApplication.run(SpringBootCleanCodeApplication.class, args);
 	}
 
 //	@Scheduled(fixedRate = 1000L)
