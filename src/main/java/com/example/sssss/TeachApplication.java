@@ -35,5 +35,5 @@ public class TeachApplication {
 //		System.out.println("New lesson " + new Date());
 //	}
 
-	public void abs(){}
+	public void abs(){  }
 }
